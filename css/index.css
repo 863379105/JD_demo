@@ -1,3 +1,35 @@
 .nav{
     height: 30px;
+    background-color: #e3e4e5;
+}
+.nav-box{
+    width: 1190px;
+    margin:0px auto;
+    text-align: right;
+}
+.nav-box ul li{
+    /* list-style: none; */
+    display: inline-block;
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    position: relative;
+}
+.nav-box ul li a{
+    color: #999999;
+    text-decoration: none;
+}
+.nav-box ul li:not(:last-child):after{
+    content: "";
+    width: 1px;
+    height: 14px;
+    background-color: #cccccc;
+    position: absolute;
+    top:8px;
+    right: 0px; 
+    display: block;
+}
+.nav-box ul li a:hover{
+    color: #f00;
 }
