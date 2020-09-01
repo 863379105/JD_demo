@@ -1,6 +1,7 @@
 .nav{
     height: 30px;
     background-color: #e3e4e5;
+    border-bottom: 1px solid #ddd;
 }
 .nav-box{
     width: 1190px;
@@ -31,5 +32,89 @@
     display: block;
 }
 .nav-box ul li a:hover{
+    color: #f00;
+}
+.header-box{
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    
+}
+.header{
+    width: 1190px;
+    display: flex;
+    margin:0 auto;
+    height: 140px;
+}
+.header .logo-box{
+    margin-top: 10px;
+    height: 120px;
+    width: 190px;
+    overflow: hidden;
+}
+.header .search-box{
+    margin-top: 10px;
+    width: 790px;
+    padding:0 10px;
+}
+.header .search-box .search-bar{
+    display: flex;
+    padding: 10px 0 0 50px;
+}
+
+.search-bar input{
+    width: 500px;
+    height: 30px;
+    border: 2px solid #e1251b;
+    outline: none;
+    padding: 2px 10px;
+}
+.search-bar .search-btn{
+    width: 50px;
+    height: 38px;
+    border: 2px solid #e1251b;
+    background-color: #e1251b;
+    cursor: pointer;
+}
+.search-bar .icon-search{
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.search-bar .cart-btn{
+    width: 100px;
+    height: 38px;
+    margin-left: 20px;
+    border: 1px solid #ddd;
+    line-height: 38px;
+    text-align: center;
+    color: #e1251b;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+.search-bar .gouwuche-cart{
+    font-size: 22px;
+    font-weight: bolder;
+    padding:0 3px;
+}
+.recommend{
+    font-size: 12px;
+    padding: 5px 0 30px 50px;
+}
+.recommend li a{
+    color: #999999;
+}
+.search-box ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.search-box ul li a{
+    text-decoration: none;
+}
+.search-nav li a{
+    color: #333333;
+    font-size: 16px;
+    /* font-weight: bold; */
+}
+.search-box ul li a:hover{
     color: #f00;
 }
