@@ -92,7 +92,6 @@
     background-color: #ffffff;
 }
 .search-bar .gouwuche-cart{
-    font-size: 22px;
     font-weight: bolder;
     padding:0 3px;
 }
@@ -117,4 +116,113 @@
 }
 .search-box ul li a:hover{
     color: #f00;
+}
+.wrapper{
+    width: 1190px;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+.wrapper .menu-box{
+    width: 190px;
+    background-color: #ffffff;
+    padding:10px 0;
+    position: relative;
+    margin-right: 10px;
+}
+.menu-box ul li{
+    height: 25px;
+    line-height: 25px;
+    padding-left: 18px;
+    overflow: hidden;
+}
+.menu-box ul li:hover{
+    background-color: #d9d9d9;
+}
+.menu-box ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+.menu-box ul li span{
+    color: #999999;
+}
+.menu-box .sub-menu{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 190px;
+    background-color: #ffffff;
+    width: 1000px;
+    padding: 20px;
+    font-size: 12px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+}
+.menu-title .item{
+    background-color: #333;
+    display: inline-block;
+    padding: 0 8px;
+    margin: 0 10px 0 0;
+    color: #ffffff;
+}
+.menu-title .item:hover{
+    background-color: #e1251b;
+}
+.sub-menu .left-box{
+    float: left;
+    max-width: 700px;
+}
+.menu-title{
+    margin: 0 0 10 0px;
+}
+.menu-box ul li a:hover{
+    backgroud-color: #e1251b;
+}
+.left-box dl{
+    display: flex;
+    padding-top: 10px;
+}
+.left-box dt{
+    font-weight: bold;
+    width: 60px;
+    text-align: right;
+    flex-shrink: 0;
+}
+.left-box dd a{
+    padding: 4px 8px;
+    white-space: nowrap;
+    font-size: 12px;
+}
+.sub-menu .right-box{
+    float: right;
+    width: 168px;
+}
+.right-box .pic-box{
+    padding: 0 0 10px 0;
+}
+.right-box .pic-box:last-child{
+    padding: 0;
+}
+.menu-box .sub-menu{
+    display: none;
+}
+.menu-box ul li:hover .sub-menu{
+    display: block;
+}
+.slider-box .slider{
+    width: 590px;
+    height: 470px;
+    background-color: #e1251b;
+    margin-right: 10px;
+}
+.wrapper .ad-box{
+    width: 190px;
+    height: 470px;
+    margin-right: 10px;
+    background-color:#333;
+}
+.wrapper .info-box{
+    width: 190px;
+    height: 470px;
+    background-color:#333;
 }
